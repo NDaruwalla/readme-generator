@@ -5,6 +5,7 @@
 // The responses to these questions will populate the readme file
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown')
 inquirer
   .prompt([
     {
@@ -37,6 +38,11 @@ inquirer
         type: 'input',
         message: 'Who are the project contributors?',
         name: 'contributors',
+      },
+      {
+        type: 'input',
+        message: 'List any references you used to create your project (sites, books, videos).',
+        name: 'references',
       },
       {
         type: 'input',
