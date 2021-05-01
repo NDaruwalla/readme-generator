@@ -2,6 +2,7 @@
 
 // TODO: Create an array of questions for user input
 //const questions = [];
+// The responses to these questions will populate the readme file
 const fs = require('fs');
 const inquirer = require('inquirer');
 inquirer
@@ -41,6 +42,21 @@ inquirer
         type: 'input',
         message: 'Explain how to conduct any testing that is included.',
         name: 'tests',
+      },
+      {
+        type: 'input',
+        message: 'Where can the user go for questions or help regarding your project?',
+        name: 'questions',
+      },
+      {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'username',
+      },
+      {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email',
       },
   ])
 
