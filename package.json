@@ -10,5 +10,14 @@
   "dependencies": {
     "inquirer": "^6.5.2"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NDaruwalla/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NDaruwalla/readme-generator/issues"
+  },
+  "homepage": "https://github.com/NDaruwalla/readme-generator#readme",
   "description": ""
 }

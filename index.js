@@ -4,10 +4,13 @@
 //const questions = [];
 // The responses to these questions will populate the readme file
 const fs = require('fs');
+const util = require('util');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown')
-inquirer
-  .prompt([
+const writeFileAsync = util.promisify(fs.writeFile);
+
+function promptUser(){
+  return inquirer.prompt([
     {
       type: 'input',
       message: 'What is the title of your project?',
@@ -63,14 +66,26 @@ inquirer
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
-      },
-  ])
+      }
+  ]);
+}
+
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
 
+
 // TODO: Create a function to initialize app
 //function init() {}
-
+async function init(){
+  try {
+    const data = await promptUser();
+    const createFile = generateMarkdown(data);
+    await writeFileAsync('./README.md', createFile);
+    console.log('Your README document was successfully written!');
+  } catch(err) {
+    console.log(err);
+  }
+}
 // Function call to initialize app
-//init();
+init();
