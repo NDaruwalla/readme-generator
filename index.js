@@ -3,6 +3,9 @@
 // TODO: Create an array of questions for user input
 //const questions = [];
 // The responses to these questions will populate the readme file
+//https://www.w3schools.com/nodejs/nodejs_filesystem.asp
+//https://nodejs.org/api/util.html#util_util
+//https://www.npmjs.com/package/inquirer#methods
 const fs = require('fs');
 const util = require('util');
 const inquirer = require('inquirer');
@@ -35,7 +38,13 @@ function promptUser(){
       type: 'list',
       name: 'license',
       message: 'Choose a license for your project:',
-      choices: ['None', 'Apache [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)', 'General Public License', 'MIT License', 'Creative Commons Zero', 'Mozilla Public License']
+      choices: [
+        'Apache',
+        'Boost', 
+        'Creative Commons',
+        'MIT', 
+        'IBM', 
+        'Mozilla']
     },
     {
         type: 'input',

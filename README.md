@@ -1,7 +1,7 @@
-# sdf
+# Test Readme Generator
 
   ## Description
-  asdf
+  Easy documentation process
 
   ## Table of Contents
   - [Description](#description)
@@ -14,28 +14,30 @@
   - [Questions](#questions)
 
   ## Installation
-  asdf
+  node.js install
+
+
 
   ## Use
-  adf
+  learning and hobby
 
   ## License
-  Apache 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
 
   ## Contributors
-  sdf
+  Nicole & Burzin
 
   ## References
-  sdf
+  My husbands large, sexy, Brain!
 
   ## Tests
-  asdf
+  just winged it
 
   ## Questions
-  asdf
+  ask me
 
   Contact me on GitHub:
-  [asdf] (https://github.com/asdf)
+  [ndaruwalla] (https://github.com/ndaruwalla)
   
-  Or, contact me via email:adf
+  Or, contact me via email:nicole.daruwalla@gmail.com
