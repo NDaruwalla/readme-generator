@@ -35,7 +35,7 @@ function promptUser(){
       type: 'list',
       name: 'license',
       message: 'Choose a license for your project:',
-      choices: ['None', 'Apache', 'General Public License', 'MIT License', 'Creative Commons Zero', 'Mozilla Public License']
+      choices: ['None', 'Apache [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)', 'General Public License', 'MIT License', 'Creative Commons Zero', 'Mozilla Public License']
     },
     {
         type: 'input',
