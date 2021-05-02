@@ -73,7 +73,7 @@ function generateMarkdown(data) {
   ${data.use}
 
   ## License
-  ${urlForBadge}
+  ${data.license}: ${urlForBadge}
 
 
   ## Contributors

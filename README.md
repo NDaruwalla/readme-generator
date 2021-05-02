@@ -1,7 +1,7 @@
-# Test Readme Generator
+# Nicole's documentation generator
 
   ## Description
-  Easy documentation process
+  Easy documentation
 
   ## Table of Contents
   - [Description](#description)
@@ -19,23 +19,23 @@
 
 
   ## Use
-  learning and hobby
+  Quick readme
 
   ## License
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  Mozilla: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 
   ## Contributors
-  Nicole & Burzin
+  Nicole
 
   ## References
-  My husbands large, sexy, Brain!
+  W3schools, Node.js
 
   ## Tests
-  just winged it
+  trial and error
 
   ## Questions
-  ask me
+  contact me
 
   Contact me on GitHub:
   [ndaruwalla] (https://github.com/ndaruwalla)
