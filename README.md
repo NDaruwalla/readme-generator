@@ -3,9 +3,11 @@
   ## Description
   The README Generator is an application that creates a detailed README.md file for GitHub repositories. The application leads the user through a series of questions. The responses to the questions are used to auto populate the README.md file.
 
+  ### Link to Full Video
   [Full Screencast Video on YouTube](https://youtu.be/2qqxbZQ3Vp4)
 
-  ![Gif-Abbreviated](Turbo.gif)
+  ### Abbreviated Gif
+  ![Turbo-README-Generator](Turbo.gif)
 
 
   ## Table of Contents
@@ -22,9 +24,11 @@
   - [Questions](#questions)
 
   ## User Story/Stories
-  AS A web application developer, 
-  I WANT to quickly create a high quality, detailed README.md file, 
+   ```
+  AS A web application developer,
+  I WANT to quickly create a high quality, detailed README.md file,
   SO THAT I can spend more time coding cool applications!
+  ```
 
   ## Acceptance Criteria
   ```
