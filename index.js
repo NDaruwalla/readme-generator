@@ -6,6 +6,10 @@
 //https://www.w3schools.com/nodejs/nodejs_filesystem.asp
 //https://nodejs.org/api/util.html#util_util
 //https://www.npmjs.com/package/inquirer#methods
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+//![badge](https://img.shields.io/badge/license-${data.license}
+
 const fs = require('fs');
 const util = require('util');
 const inquirer = require('inquirer');
@@ -26,6 +30,21 @@ function promptUser(){
     },
     {
       type: 'input',
+      message: 'Describe your project user story/stories (AS A, I WANT, SO THAT).',
+      name: 'story',
+    },
+    {
+      type: 'input',
+      message: 'Describe your project acceptance criteria (GIVEN, WHEN, THEN, WHEN, THEN).',
+      name: 'criteria',
+    },
+    {
+      type: 'input',
+      message: 'What tools did you use to create the project?',
+      name: 'tools',
+    },
+    {
+      type: 'input',
       message: 'What steps are required for installation?',
       name: 'installation',
     },
@@ -37,16 +56,19 @@ function promptUser(){
     {
       type: 'list',
       name: 'license',
-      message: 'Choose a license for your project:',
+      message: 'Choose a license for your project.',
       choices: [
+        'None',
         'Apache',
         'Boost', 
         'Creative Commons',
+        'GNU',
         'MIT', 
         'IBM', 
-        'Mozilla']
+        'Mozilla'
+        ]
     },
-    {
+      {
         type: 'input',
         message: 'Who are the project contributors?',
         name: 'contributors',
@@ -60,11 +82,6 @@ function promptUser(){
         type: 'input',
         message: 'Explain how to conduct any testing that is included.',
         name: 'tests',
-      },
-      {
-        type: 'input',
-        message: 'Where can the user go for questions or help regarding your project?',
-        name: 'questions',
       },
       {
         type: 'input',
